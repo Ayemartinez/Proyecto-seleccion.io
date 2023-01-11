@@ -385,3 +385,24 @@ footer{
     grid-area: post-3;
 }
 
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+@media only screen and (max-width: 810px){
+    form{
+        width: 100%;
+    }
+}
