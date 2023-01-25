@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+.pie{
+    display: flex;
+    background-color: #CEEBF8;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.pie img{
+    margin: 20px;
+}

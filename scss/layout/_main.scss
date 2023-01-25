@@ -1,0 +1,45 @@
+.banner{
+    position: relative;
+    top: 0;
+    display: flex;
+    margin: auto;
+}
+
+body{
+    background-color: #3DA3C6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.texto{
+    margin: 40px;
+}
+
+h1{
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    color: white;
+}
