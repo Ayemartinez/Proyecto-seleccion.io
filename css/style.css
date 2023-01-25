@@ -230,6 +230,7 @@ footer{
 
 .jugadoras {
     position: unset;
+    display: flex;
     width: 300px;
     height: 400px;
     background-color: #358dab;
