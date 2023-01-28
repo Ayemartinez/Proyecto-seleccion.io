@@ -51,7 +51,7 @@ nav ul li img{
     }
 }
 
-.banner{
+/* .banner{
     position: relative;
     top: 0;
     display: flex;
@@ -95,7 +95,7 @@ p{
     font-family: 'Urbanist', sans-serif;
     text-align: center;
     color: white;
-}
+} */
 
 li{
     font-family: 'Urbanist', sans-serif;
@@ -104,7 +104,7 @@ li{
     color: white;
 }
 
-footer{
+/* footer{
     display: flex;
     width: 100%;
     text-align: center;
@@ -122,7 +122,7 @@ footer{
 
 .pie img{
     margin: 20px;
-}
+} */
 
 @media only screen and (max-width: 810px){
     .pie { 
@@ -130,7 +130,7 @@ footer{
     }
 }
 
-.container-grid{
+/* .container-grid{
     display: grid;
     width: 100%;
     margin: auto;
@@ -143,7 +143,7 @@ footer{
     "item3 item3 item3"
     "item5 item6 item7"
     ;
-}
+} */
 
 @media only screen and (max-width: 810px){
     .container-grid { 
@@ -161,7 +161,7 @@ footer{
         ;
     }
 }
-
+/* 
 .item1{
     grid-area: item1;
     margin: 5px;
@@ -194,7 +194,7 @@ footer{
 
 .container-grid img{
     width: 95%;
-}
+} */
 
 .jugadoras-grid{
     display: flex;
