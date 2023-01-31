@@ -135,7 +135,9 @@ p {
 .presentacion-jugadoras {
   height: 125px;
   width: 100%;
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: row; }
 
 .imagen-jugadora {
   width: 150px;
@@ -160,7 +162,10 @@ p {
   text-align: center; }
 
 .descripcion li {
-  list-style: none; }
+  list-style: none;
+  font-family: 'Urbanist', sans-serif;
+  text-align: center;
+  color: black; }
 
 .seguir {
   width: 100%;
@@ -193,14 +198,6 @@ p {
   margin: 20px;
   width: 100%;
   column-gap: 20px; }
-
-.noticias {
-  width: 300px;
-  height: 300px;
-  float: left;
-  background-color: #3DA3C6;
-  justify-content: center;
-  align-items: center; }
 
 .post-img-1 {
   width: 100%;

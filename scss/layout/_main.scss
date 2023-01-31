@@ -120,6 +120,8 @@ p{
     height: 125px;
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 .imagen-jugadora {
@@ -148,6 +150,9 @@ p{
 
 .descripcion li{
     list-style: none;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    color: black;
 }
 
 .seguir {
@@ -185,15 +190,6 @@ p{
     margin: 20px;
     width: 100%;
     column-gap: 20px;
-}
-
-.noticias{
-    width: 300px;
-    height: 300px;
-    float: left;
-    background-color: #3DA3C6;
-    justify-content: center;
-    align-items: center;
 }
 
 .post-img-1{
