@@ -219,16 +219,16 @@ li{
     align-content: center;
 }
 
-.imagen-jugadora-der img{
+/* .imagen-jugadora-der img{
     float: right;
     width: 200px;
     height: 200px;
     border-radius: 100px;
     align-content: center;
     margin: auto;
-}
+} */
 
-.jugadoras {
+/* .jugadoras {
     position: unset;
     display: flex;
     width: 300px;
@@ -238,9 +238,9 @@ li{
     margin: 25px;
     flex-direction: column;
     float: inline-start;
-}
+} */
 
-.presentacion-jugadoras {
+/* .presentacion-jugadoras {
     height: 125px;
     width: 100%;
     position: relative;
@@ -272,9 +272,9 @@ li{
 
 .descripcion li{
     list-style: none;
-}
+} */
 
-.seguir {
+/* .seguir {
     width: 100%;
     height: 75px;
     display: flex;
@@ -289,9 +289,9 @@ li{
     padding: 5px 20px;
     border-radius: 5px;
     font-family: 'Urbanist', sans-serif;
-}
+} */
 
-.post-list{
+/* .post-list{
     display: flex;
     min-height: 100vh;
     align-items: center;
@@ -384,9 +384,9 @@ li{
 
 .post-3{
     grid-area: post-3;
-}
+} */
 
-form {
+/* form {
     width: 450px;
     margin: auto;
     background: rgba(0, 0, 0, 0.4);
@@ -400,7 +400,7 @@ input, textarea{
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
-}
+} */
 
 @media only screen and (max-width: 810px){
     form{
