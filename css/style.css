@@ -79,38 +79,6 @@ p {
     width: 100%;
     margin-top: 5px; }
 
-.item1 {
-  grid-area: item1;
-  margin: 5px; }
-
-.item2 {
-  grid-area: item2;
-  margin: 5px; }
-
-.item3 {
-  grid-area: item3;
-  margin: 5px;
-  align-content: center; }
-
-.item4 {
-  grid-area: item4;
-  margin: 5px; }
-
-.item5 {
-  grid-area: item5;
-  margin: 5px; }
-
-.item6 {
-  grid-area: item6;
-  margin: 5px; }
-
-.item7 {
-  grid-area: item7;
-  margin: 5px; }
-
-.container-grid img {
-  width: 95%; }
-
 .jugadoras {
   position: unset;
   display: flex;
@@ -268,6 +236,12 @@ input, textarea {
   margin-bottom: 20px;
   padding: 7px; }
 
+.col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
 footer {
   display: flex;
   width: 100%;
@@ -284,3 +258,25 @@ footer {
 
 .pie img {
   margin: 20px; }
+
+@media (max-width: 768px) {
+  .pie {
+    gap: 5px; }
+  .container-grid {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "item1 item4 item2" "item3 item3 item3" "item5 item6 item7"; }
+  form {
+    width: 100%; } }
+
+@media (max-width: 428px) {
+  nav ul {
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px; } }

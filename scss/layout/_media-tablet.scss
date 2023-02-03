@@ -1,0 +1,27 @@
+@media (max-width:768px){
+
+    .pie { 
+        gap: 5px;
+    }
+
+
+    .container-grid { 
+        display: grid;
+        width: 100%;
+        margin: auto;
+        justify-content: space-around;   
+        align-items: center; 
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "item1 item4 item2"
+        "item3 item3 item3"
+        "item5 item6 item7"
+        ;
+    }
+
+    form{
+        width: 100%;
+    }
+
+}

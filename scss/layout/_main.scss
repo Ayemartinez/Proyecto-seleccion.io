@@ -59,39 +59,6 @@ p{
     };
 }
 
-.item1{
-    grid-area: item1;
-    margin: 5px;
-}
-.item2{
-    grid-area: item2;
-    margin: 5px;
-}
-.item3{
-    grid-area: item3;
-    margin: 5px;
-    align-content: center;
-}
-.item4{
-    grid-area: item4;
-    margin: 5px;
-}
-.item5{
-    grid-area: item5;
-    margin: 5px;
-}
-.item6{
-    grid-area: item6;
-    margin: 5px;
-}
-.item7{
-    grid-area: item7;
-    margin: 5px;
-}
-
-.container-grid img{
-    width: 95%;
-}
 
 .jugadoras {
     position: unset;
@@ -273,4 +240,11 @@ input, textarea{
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
