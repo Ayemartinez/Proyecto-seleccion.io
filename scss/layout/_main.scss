@@ -65,9 +65,7 @@ p{
     flex-wrap: wrap;
     margin: auto;
     padding: 15px;
-
     background-color: #3DA3C6;
-    
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -141,76 +139,6 @@ padding: 5px 15px;
 border-radius: 5px;
 font-family: 'Urbanist', sans-serif;
 }
-
-// .jugadoras {
-
-//     display: flex;
-//     width: 300px;
-//     height: 450px;
-//     background-color: #358dab;
-//     border-radius: 5px;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: row;
-//     float: inline-start;
-//     margin: 30px;
-// }
-
-// .presentacion-jugadoras {
-//     height: 125px;
-//     width: 100%;
-//     position: relative;
-//     display: flex;
-//     flex-direction: column;
-// }
-
-// .imagen-jugadora {
-//     width: 150px;
-//     height: 150px;
-//     position: absolute;
-//     padding: 5px;
-//     border-radius: 50%;
-//     bottom: -30%;
-//     left: 50%;
-//     transform: translate(-50%);
-// }
-// .imagen-jugadora img{
-//     width: 100%;
-//     height: 100%;
-//     border-radius: 50%;
-//     object-fit: cover;
-// }
-
-// .descripcion {
-//     height: 200px;
-//     padding: 40px 20px 20px 20px;
-//     border-bottom: solid 1px rgba(6, 74, 76, .18);
-//     text-align: center;
-// }
-
-// .descripcion li{
-//     list-style: none;
-//     font-family: 'Urbanist', sans-serif;
-//     text-align: center;
-//     color: black;
-// }
-
-// .seguir {
-//     width: 100%;
-//     height: 100px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// }
-
-// .seguir a{
-//     text-decoration: none;
-//     color: white;
-//     background-color: #2b738a;
-//     padding: 5px 15px;
-//     border-radius: 5px;
-//     font-family: 'Urbanist', sans-serif;
-// }
 
 .post-list{
     display: flex;
