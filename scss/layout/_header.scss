@@ -1,13 +1,15 @@
 header{
     background-color: #CEEBF8 ;
-
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    flex-direction: column;
 }
 nav{
     background-color: #CEEBF8 ;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100vmax;
+    width: 100%;
     ul{
         padding: 10px;
         display: flex;
