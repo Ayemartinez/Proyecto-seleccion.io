@@ -41,6 +41,11 @@ nav {
   display: flex;
   margin: auto; }
 
+.banner-mascota {
+  position: relative;
+  display: flex;
+  margin: auto; }
+
 body {
   background-color: #3DA3C6;
   position: relative;
@@ -66,6 +71,12 @@ h2 {
 h3 {
   font-family: 'Urbanist', sans-serif;
   font-weight: 100;
+  text-align: center;
+  color: white; }
+
+h4 {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 80;
   text-align: center;
   color: white; }
 
@@ -246,6 +257,87 @@ input, textarea {
   align-items: center;
   justify-content: center; }
 
+.info-mundial {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: auto; }
+
+.sedes {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto; }
+
+.balon {
+  padding: 40px;
+  margin: auto; }
+
+.balon img {
+  display: flex;
+  flex-direction: column; }
+
+.balon img {
+  position: relative;
+  top: 0;
+  display: flex;
+  margin: auto; }
+
+.fixture {
+  padding: 40px; }
+
+.fixture img {
+  width: 100%; }
+
+.fase-grupos {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  grid-template-areas: "grupoa grupob grupoc grupod" "grupoe grupof grupog grupoh"; }
+
+.grupoa {
+  grid-area: grupoa;
+  margin: 5px; }
+
+.grupob {
+  grid-area: grupob;
+  margin: 5px; }
+
+.grupoc {
+  grid-area: grupoc;
+  margin: 5px; }
+
+.grupod {
+  grid-area: grupod;
+  margin: 5px; }
+
+.grupoe {
+  grid-area: grupoe;
+  margin: 5px; }
+
+.grupof {
+  grid-area: grupof;
+  margin: 5px; }
+
+.grupog {
+  grid-area: grupog;
+  margin: 5px; }
+
+.grupoh {
+  grid-area: grupoh;
+  margin: 5px; }
+
+.grupos-finales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 footer {
   display: flex;
   width: 100%;
@@ -284,3 +376,7 @@ footer {
     flex-direction: column;
     text-align: center;
     margin: 50px; } }
+
+@media (max-width: 428px) {
+  .fase-grupos {
+    grid-template-areas: "grupoa"  "grupob"  "grupoc" "grupod" "grupoe"  "grupof"  "grupog" "grupoh"; } }

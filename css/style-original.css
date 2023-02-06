@@ -42,14 +42,14 @@ nav ul li img{
     width: 40px;
 } */
 
-@media only screen and (max-width: 810px){
+/* @media only screen and (max-width: 810px){
     nav ul{
         height: 230px;
         flex-direction: column;
         text-align: center;
         margin: 50px;
     }
-}
+} */
 
 /* .banner{
     position: relative;
@@ -124,11 +124,11 @@ li{
     margin: 20px;
 } */
 
-@media only screen and (max-width: 810px){
+/* @media only screen and (max-width: 810px){
     .pie { 
         gap: 5px;
     }
-}
+} */
 
 /* .container-grid{
     display: grid;
@@ -145,7 +145,7 @@ li{
     ;
 } */
 
-@media only screen and (max-width: 810px){
+/* @media only screen and (max-width: 810px){
     .container-grid { 
         display: grid;
         width: 100%;
@@ -160,7 +160,7 @@ li{
         "item5 item6 item7"
         ;
     }
-}
+} */
 /* 
 .item1{
     grid-area: item1;

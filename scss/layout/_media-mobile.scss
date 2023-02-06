@@ -6,3 +6,18 @@
         margin: 50px;
     }
 }
+
+@media (max-width:428px) {
+    .fase-grupos{
+        grid-template-areas: 
+        "grupoa" 
+        "grupob" 
+        "grupoc"
+        "grupod"
+        "grupoe" 
+        "grupof" 
+        "grupog"
+        "grupoh"
+        ;
+    }
+}
