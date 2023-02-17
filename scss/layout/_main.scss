@@ -7,6 +7,7 @@
 
 .banner-mascota{
     position: relative;
+
     display: flex;
     margin: auto;
 }
@@ -278,7 +279,6 @@ input, textarea{
 }
 
 .balon {
-    padding: 40px;
     margin: auto;
 }
 .balon img{
@@ -351,4 +351,13 @@ input, textarea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.main-mundial23{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
 }
