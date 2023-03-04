@@ -54,8 +54,17 @@ body {
   justify-content: center;
   flex-direction: column; }
 
-.texto {
-  margin: 40px; }
+.fase-grupos li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Urbanist', sans-serif; }
+
+.grupos-finales li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Urbanist', sans-serif; }
 
 h1 {
   font-family: 'Urbanist', sans-serif;
@@ -78,7 +87,9 @@ h4 {
   font-family: 'Urbanist', sans-serif;
   font-weight: 80;
   text-align: center;
-  color: white; }
+  color: white;
+  display: flex;
+  margin: auto; }
 
 p {
   font-family: 'Urbanist', sans-serif;
@@ -149,6 +160,11 @@ p {
   text-align: center;
   margin-top: 20px;
   font-size: 15px; }
+
+.descripcion ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white; }
 
 .card .seguir {
   width: 100%;
@@ -345,6 +361,28 @@ input, textarea {
   margin: 5px;
   width: 100%; }
 
+.seccion-jugadoras {
+  display: flex; }
+
+.mundial2023 {
+  margin: 5px;
+  justify-content: center;
+  align-items: center; }
+
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.fotomundial {
+  display: flex; }
+
+.texto {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: auto; }
+
 footer {
   display: flex;
   width: 100%;
@@ -376,10 +414,3 @@ footer {
     grid-template-areas: "item1 item4 item2" "item3 item3 item3" "item5 item6 item7"; }
   form {
     width: 100%; } }
-
-    .imagen-balon{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
